@@ -5,7 +5,7 @@ def line(customers)
   else
     print "The line is currently:"
     customers.each.with_index {|customer, i| print " #{i+1}. #{customer}" }
-    puts ""
+    print "\n"
   end
 end
 
