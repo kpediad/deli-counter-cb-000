@@ -1,6 +1,6 @@
 # Write your code here.
 def line(customers)
-  if customers.size == 0 
+  if customers.size == 0
     puts "The line is currently empty."
   else
     print "The line is currently:"
@@ -14,7 +14,7 @@ def take_a_number(customers, name)
 end
 
 def now_serving(customers)
-  if customers.size == 0 
+  if customers.size == 0
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{customers.shift}."
